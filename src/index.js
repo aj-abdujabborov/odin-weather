@@ -63,6 +63,7 @@ const WeatherInterface = (function () {
   //
 })();
 
+getWeatherForCity("london").then((x) => console.log(x));
 WeatherInterface.setCity("London");
 WeatherInterface.getData("c", "kph").then((x) => console.log(x));
 
