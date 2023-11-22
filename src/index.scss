@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,900;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,900;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
 
 // General
@@ -25,6 +25,7 @@ input,
 button {
   font-size: inherit;
   font-family: inherit;
+  font-weight: inherit;
   color: inherit;
 }
 
@@ -191,19 +192,19 @@ div.units {
       background: var(--main-text-color);
       color: var(--main-color);
 
-      &#temp-unit[value="celsius"]::before {
+      &#temp-unit-ce::before {
         content: "C°";
       }
 
-      &#temp-unit[value="fahrenheit"]::before {
+      &#temp-unit-fa::before {
         content: "F°";
       }
 
-      &#dist-unit[value="kilometers"]::before {
+      &#dist-unit-km::before {
         content: "km/h";
       }
 
-      &#dist-unit[value="miles"]::before {
+      &#dist-unit-mi::before {
         content: "m/h";
       }
 
